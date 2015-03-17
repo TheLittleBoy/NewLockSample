@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-//#define LLDEBUG
+#define LLDEBUG
 #ifdef LLDEBUG
 #define LLLog(format, ...) NSLog(format, ## __VA_ARGS__)
 #else
