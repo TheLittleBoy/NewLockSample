@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041B04411A2C18AD0025A42A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B04401A2C18AD0025A42A /* Default-568h@2x.png */; };
+		970B17A11A2ACFCF007ED619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17A01A2ACFCF007ED619 /* main.m */; };
+		970B17A41A2ACFCF007ED619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17A31A2ACFCF007ED619 /* AppDelegate.m */; };
+		970B17AA1A2ACFCF007ED619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970B17A81A2ACFCF007ED619 /* Main.storyboard */; };
+		970B17AC1A2ACFCF007ED619 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970B17AB1A2ACFCF007ED619 /* Images.xcassets */; };
+		970B17AF1A2ACFCF007ED619 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970B17AD1A2ACFCF007ED619 /* LaunchScreen.xib */; };
+		970B17BB1A2ACFCF007ED619 /* NewLockSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17BA1A2ACFCF007ED619 /* NewLockSampleTests.m */; };
+		970B17CF1A2ACFF6007ED619 /* LLLockIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17C71A2ACFF6007ED619 /* LLLockIndicator.m */; };
+		970B17D01A2ACFF6007ED619 /* LLLockPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17C91A2ACFF6007ED619 /* LLLockPassword.m */; };
+		970B17D11A2ACFF6007ED619 /* LLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17CB1A2ACFF6007ED619 /* LLLockView.m */; };
+		970B17D21A2ACFF6007ED619 /* LLLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17CD1A2ACFF6007ED619 /* LLLockViewController.m */; };
+		970B17D81A2AD1DF007ED619 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17D51A2AD1DF007ED619 /* FirstViewController.m */; };
+		970B17D91A2AD1DF007ED619 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B17D71A2AD1DF007ED619 /* SecondViewController.m */; };
+		970B17DB1A2AD72F007ED619 /* LLLockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970B17DA1A2AD72F007ED619 /* LLLockViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		970B17B51A2ACFCF007ED619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 970B17931A2ACFCF007ED619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970B179A1A2ACFCF007ED619;
+			remoteInfo = NewLockSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041B04401A2C18AD0025A42A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		970B179B1A2ACFCF007ED619 /* NewLockSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewLockSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		970B179F1A2ACFCF007ED619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970B17A01A2ACFCF007ED619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		970B17A21A2ACFCF007ED619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		970B17A31A2ACFCF007ED619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		970B17A91A2ACFCF007ED619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		970B17AB1A2ACFCF007ED619 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		970B17AE1A2ACFCF007ED619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		970B17B41A2ACFCF007ED619 /* NewLockSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewLockSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		970B17B91A2ACFCF007ED619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970B17BA1A2ACFCF007ED619 /* NewLockSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewLockSampleTests.m; sourceTree = "<group>"; };
+		970B17C51A2ACFF6007ED619 /* LLLockConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockConfig.h; sourceTree = "<group>"; };
+		970B17C61A2ACFF6007ED619 /* LLLockIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockIndicator.h; sourceTree = "<group>"; };
+		970B17C71A2ACFF6007ED619 /* LLLockIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockIndicator.m; sourceTree = "<group>"; };
+		970B17C81A2ACFF6007ED619 /* LLLockPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockPassword.h; sourceTree = "<group>"; };
+		970B17C91A2ACFF6007ED619 /* LLLockPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockPassword.m; sourceTree = "<group>"; };
+		970B17CA1A2ACFF6007ED619 /* LLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockView.h; sourceTree = "<group>"; };
+		970B17CB1A2ACFF6007ED619 /* LLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockView.m; sourceTree = "<group>"; };
+		970B17CC1A2ACFF6007ED619 /* LLLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLockViewController.h; sourceTree = "<group>"; };
+		970B17CD1A2ACFF6007ED619 /* LLLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLockViewController.m; sourceTree = "<group>"; };
+		970B17D41A2AD1DF007ED619 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		970B17D51A2AD1DF007ED619 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		970B17D61A2AD1DF007ED619 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		970B17D71A2AD1DF007ED619 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		970B17DA1A2AD72F007ED619 /* LLLockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLLockViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		970B17981A2ACFCF007ED619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970B17B11A2ACFCF007ED619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		970B17921A2ACFCF007ED619 = {
+			isa = PBXGroup;
+			children = (
+				970B179D1A2ACFCF007ED619 /* NewLockSample */,
+				970B17B71A2ACFCF007ED619 /* NewLockSampleTests */,
+				970B179C1A2ACFCF007ED619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		970B179C1A2ACFCF007ED619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				970B179B1A2ACFCF007ED619 /* NewLockSample.app */,
+				970B17B41A2ACFCF007ED619 /* NewLockSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		970B179D1A2ACFCF007ED619 /* NewLockSample */ = {
+			isa = PBXGroup;
+			children = (
+				041B04401A2C18AD0025A42A /* Default-568h@2x.png */,
+				970B17A21A2ACFCF007ED619 /* AppDelegate.h */,
+				970B17A31A2ACFCF007ED619 /* AppDelegate.m */,
+				970B17D41A2AD1DF007ED619 /* FirstViewController.h */,
+				970B17D51A2AD1DF007ED619 /* FirstViewController.m */,
+				970B17D61A2AD1DF007ED619 /* SecondViewController.h */,
+				970B17D71A2AD1DF007ED619 /* SecondViewController.m */,
+				970B17A81A2ACFCF007ED619 /* Main.storyboard */,
+				970B17AB1A2ACFCF007ED619 /* Images.xcassets */,
+				970B17AD1A2ACFCF007ED619 /* LaunchScreen.xib */,
+				970B17C41A2ACFF6007ED619 /* LLLockView */,
+				970B179E1A2ACFCF007ED619 /* Supporting Files */,
+			);
+			path = NewLockSample;
+			sourceTree = "<group>";
+		};
+		970B179E1A2ACFCF007ED619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				970B179F1A2ACFCF007ED619 /* Info.plist */,
+				970B17A01A2ACFCF007ED619 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		970B17B71A2ACFCF007ED619 /* NewLockSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				970B17BA1A2ACFCF007ED619 /* NewLockSampleTests.m */,
+				970B17B81A2ACFCF007ED619 /* Supporting Files */,
+			);
+			path = NewLockSampleTests;
+			sourceTree = "<group>";
+		};
+		970B17B81A2ACFCF007ED619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				970B17B91A2ACFCF007ED619 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		970B17C41A2ACFF6007ED619 /* LLLockView */ = {
+			isa = PBXGroup;
+			children = (
+				970B17C51A2ACFF6007ED619 /* LLLockConfig.h */,
+				970B17C61A2ACFF6007ED619 /* LLLockIndicator.h */,
+				970B17C71A2ACFF6007ED619 /* LLLockIndicator.m */,
+				970B17C81A2ACFF6007ED619 /* LLLockPassword.h */,
+				970B17C91A2ACFF6007ED619 /* LLLockPassword.m */,
+				970B17CA1A2ACFF6007ED619 /* LLLockView.h */,
+				970B17CB1A2ACFF6007ED619 /* LLLockView.m */,
+				970B17CC1A2ACFF6007ED619 /* LLLockViewController.h */,
+				970B17CD1A2ACFF6007ED619 /* LLLockViewController.m */,
+				970B17DA1A2AD72F007ED619 /* LLLockViewController.xib */,
+			);
+			path = LLLockView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		970B179A1A2ACFCF007ED619 /* NewLockSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 970B17BE1A2ACFCF007ED619 /* Build configuration list for PBXNativeTarget "NewLockSample" */;
+			buildPhases = (
+				970B17971A2ACFCF007ED619 /* Sources */,
+				970B17981A2ACFCF007ED619 /* Frameworks */,
+				970B17991A2ACFCF007ED619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewLockSample;
+			productName = NewLockSample;
+			productReference = 970B179B1A2ACFCF007ED619 /* NewLockSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		970B17B31A2ACFCF007ED619 /* NewLockSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 970B17C11A2ACFCF007ED619 /* Build configuration list for PBXNativeTarget "NewLockSampleTests" */;
+			buildPhases = (
+				970B17B01A2ACFCF007ED619 /* Sources */,
+				970B17B11A2ACFCF007ED619 /* Frameworks */,
+				970B17B21A2ACFCF007ED619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				970B17B61A2ACFCF007ED619 /* PBXTargetDependency */,
+			);
+			name = NewLockSampleTests;
+			productName = NewLockSampleTests;
+			productReference = 970B17B41A2ACFCF007ED619 /* NewLockSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		970B17931A2ACFCF007ED619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MAC_AO;
+				TargetAttributes = {
+					970B179A1A2ACFCF007ED619 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					970B17B31A2ACFCF007ED619 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 970B179A1A2ACFCF007ED619;
+					};
+				};
+			};
+			buildConfigurationList = 970B17961A2ACFCF007ED619 /* Build configuration list for PBXProject "NewLockSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 970B17921A2ACFCF007ED619;
+			productRefGroup = 970B179C1A2ACFCF007ED619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				970B179A1A2ACFCF007ED619 /* NewLockSample */,
+				970B17B31A2ACFCF007ED619 /* NewLockSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		970B17991A2ACFCF007ED619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970B17AA1A2ACFCF007ED619 /* Main.storyboard in Resources */,
+				970B17DB1A2AD72F007ED619 /* LLLockViewController.xib in Resources */,
+				970B17AF1A2ACFCF007ED619 /* LaunchScreen.xib in Resources */,
+				041B04411A2C18AD0025A42A /* Default-568h@2x.png in Resources */,
+				970B17AC1A2ACFCF007ED619 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970B17B21A2ACFCF007ED619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		970B17971A2ACFCF007ED619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970B17D91A2AD1DF007ED619 /* SecondViewController.m in Sources */,
+				970B17A41A2ACFCF007ED619 /* AppDelegate.m in Sources */,
+				970B17D01A2ACFF6007ED619 /* LLLockPassword.m in Sources */,
+				970B17D11A2ACFF6007ED619 /* LLLockView.m in Sources */,
+				970B17D21A2ACFF6007ED619 /* LLLockViewController.m in Sources */,
+				970B17CF1A2ACFF6007ED619 /* LLLockIndicator.m in Sources */,
+				970B17A11A2ACFCF007ED619 /* main.m in Sources */,
+				970B17D81A2AD1DF007ED619 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970B17B01A2ACFCF007ED619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970B17BB1A2ACFCF007ED619 /* NewLockSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		970B17B61A2ACFCF007ED619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 970B179A1A2ACFCF007ED619 /* NewLockSample */;
+			targetProxy = 970B17B51A2ACFCF007ED619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		970B17A81A2ACFCF007ED619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				970B17A91A2ACFCF007ED619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		970B17AD1A2ACFCF007ED619 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				970B17AE1A2ACFCF007ED619 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		970B17BC1A2ACFCF007ED619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		970B17BD1A2ACFCF007ED619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		970B17BF1A2ACFCF007ED619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewLockSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		970B17C01A2ACFCF007ED619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewLockSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		970B17C21A2ACFCF007ED619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewLockSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewLockSample.app/NewLockSample";
+			};
+			name = Debug;
+		};
+		970B17C31A2ACFCF007ED619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewLockSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewLockSample.app/NewLockSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		970B17961A2ACFCF007ED619 /* Build configuration list for PBXProject "NewLockSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970B17BC1A2ACFCF007ED619 /* Debug */,
+				970B17BD1A2ACFCF007ED619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		970B17BE1A2ACFCF007ED619 /* Build configuration list for PBXNativeTarget "NewLockSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970B17BF1A2ACFCF007ED619 /* Debug */,
+				970B17C01A2ACFCF007ED619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		970B17C11A2ACFCF007ED619 /* Build configuration list for PBXNativeTarget "NewLockSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970B17C21A2ACFCF007ED619 /* Debug */,
+				970B17C31A2ACFCF007ED619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 970B17931A2ACFCF007ED619 /* Project object */;
+}
