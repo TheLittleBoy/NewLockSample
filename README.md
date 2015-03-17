@@ -3,6 +3,7 @@
 
 完善逻辑，修改界面，屏幕适配。
 
+![QRCode](https://github.com/TheLittleBoy/NewLockSample/blob/master/lock.png)
 
 The MIT License (MIT)
 
