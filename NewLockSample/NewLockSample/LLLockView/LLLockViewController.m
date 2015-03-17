@@ -22,6 +22,8 @@
 @property (nonatomic, strong) IBOutlet LLLockView* lockview; // 触摸田字控件
 @property (strong, nonatomic) IBOutlet UILabel *tipLable;
 @property (weak, nonatomic) IBOutlet UIView *mBackgroundView;
+@property (weak, nonatomic) IBOutlet UIButton *forgetPasswordButton;
+- (IBAction)forgerPawPressed:(id)sender;
 
 @property (nonatomic, strong) NSString* savedPassword; // 本地存储的密码
 @property (nonatomic, strong) NSString* passwordOld; // 旧密码
@@ -90,6 +92,7 @@
         case LLLockViewTypeCheck:
         {
             _tipLable.text = @"请输入解锁密码";
+            _forgetPasswordButton.hidden = NO;
         }
             break;
         case LLLockViewTypeCreate:
@@ -369,4 +372,14 @@
     [alert show];
 }
 
+- (IBAction)forgerPawPressed:(id)sender {
+    
+    [LLLockPassword saveLockPassword:nil];
+    // 强制注销该账户，并清除手势密码，以便重设
+    [self hide];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:LLLockNotification object:nil];
+    
+    [self showAlert:@"忘记密码，这里该做一些如强制退出重设密码等操作"];
+}
 @end

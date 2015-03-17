@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LLLockViewController">
             <connections>
+                <outlet property="forgetPasswordButton" destination="qH9-Gg-6Zt" id="1M8-qa-HDl"/>
                 <outlet property="indecator" destination="VIs-fI-9Kl" id="dRj-z2-vBa"/>
                 <outlet property="lockview" destination="ywE-yX-1bB" id="NJC-na-V2X"/>
                 <outlet property="mBackgroundView" destination="zt2-Ph-fLq" id="h3W-Xa-wzR"/>
@@ -42,10 +43,25 @@
                         <constraint firstAttribute="height" constant="416" id="rvI-UW-hBi"/>
                     </constraints>
                 </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qH9-Gg-6Zt">
+                    <rect key="frame" x="235" y="562" width="131" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="iqR-MT-TBF"/>
+                        <constraint firstAttribute="width" constant="131" id="jS1-SM-1dk"/>
+                    </constraints>
+                    <state key="normal" title="忘记手势密码？">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="forgerPawPressed:" destination="-1" eventType="touchUpInside" id="nDU-3P-S9b"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="qH9-Gg-6Zt" secondAttribute="bottom" constant="13" id="8eV-if-kAo"/>
                 <constraint firstAttribute="centerY" secondItem="zt2-Ph-fLq" secondAttribute="centerY" constant="-8" id="U0n-eG-bD9"/>
+                <constraint firstAttribute="centerX" secondItem="qH9-Gg-6Zt" secondAttribute="centerX" id="stM-1I-2ib"/>
                 <constraint firstAttribute="centerX" secondItem="zt2-Ph-fLq" secondAttribute="centerX" id="xjQ-Yd-6Js"/>
             </constraints>
             <point key="canvasLocation" x="307" y="341"/>
